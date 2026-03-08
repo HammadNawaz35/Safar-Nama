@@ -2,7 +2,7 @@
 
 **Safarnama** is a modern, immersive travel platform built with React, offering curated tour packages, destination exploration, trip planning, and a rich visual experience for travel enthusiasts.
 
-🌐 **Live Preview**: [View Website](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID)
+🌐 **Live Preview**: [View Website]( https://hammadnawaz35.github.io/Safar-Nama/)
 
 ---
 
