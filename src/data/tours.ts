@@ -1,0 +1,59 @@
+export interface Tour {
+  id: number;
+  badge: string;
+  name: string;
+  duration: string;
+  days: number;
+  price: number;
+  oldPrice: number;
+  img: string;
+  includes: string[];
+  highlights: string[];
+  color: string;
+  rating: number;
+  reviews: number;
+  popularity: number;
+}
+
+export const TOURS: Tour[] = [
+  {
+    id: 1, badge: "Best Seller", name: "Hunza Autumn Explorer", duration: "7 Days / 6 Nights", days: 7,
+    price: 89000, oldPrice: 110000,
+    img: "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=700&q=80",
+    includes: ["3★ Hotels", "All Transfers", "Daily Breakfast", "Karimabad Tour", "Attabad Boat Ride"],
+    highlights: ["Hunza Valley", "Attabad Lake", "Eagle's Nest"],
+    color: "#1a3a5c", rating: 4.9, reviews: 320, popularity: 95
+  },
+  {
+    id: 2, badge: "Adventure", name: "Skardu Adventure Expedition", duration: "10 Days / 9 Nights", days: 10,
+    price: 135000, oldPrice: 165000,
+    img: "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?w=700&q=80",
+    includes: ["Camping & Hotels", "4x4 Jeeps", "All Meals", "Deosai Visit", "Shangrila Resort"],
+    highlights: ["Skardu", "Deosai", "Shangrila"],
+    color: "#2a1a3c", rating: 4.8, reviews: 210, popularity: 88
+  },
+  {
+    id: 3, badge: "Trek Special", name: "Fairy Meadows Trek", duration: "5 Days / 4 Nights", days: 5,
+    price: 65000, oldPrice: 82000,
+    img: "https://images.unsplash.com/photo-1589308078059-be1415eab4c3?w=700&q=80",
+    includes: ["Tent Camping", "Trek Guide", "All Meals", "Jeep Transfer", "Nanga Parbat Views"],
+    highlights: ["Fairy Meadows", "Nanga Parbat", "Raikot Bridge"],
+    color: "#0a2a2a", rating: 4.9, reviews: 280, popularity: 92
+  },
+  {
+    id: 4, badge: "Family", name: "Swat Valley Family Trip", duration: "5 Days / 4 Nights", days: 5,
+    price: 55000, oldPrice: 72000,
+    img: "https://images.unsplash.com/photo-1472396961693-142e6e269027?w=700&q=80",
+    includes: ["4★ Hotels", "Private Car", "Daily Breakfast", "River Rafting", "Mingora Tour"],
+    highlights: ["Swat", "Kalam", "Mahodand Lake"],
+    color: "#1a2a1a", rating: 4.6, reviews: 450, popularity: 85
+  },
+  {
+    id: 5, badge: "Popular", name: "Neelum Valley Explorer", duration: "6 Days / 5 Nights", days: 6,
+    price: 72000, oldPrice: 90000,
+    img: "https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?w=700&q=80",
+    includes: ["3★ Hotels", "All Transfers", "Daily Meals", "Sharda Visit", "River Activities"],
+    highlights: ["Neelum Valley", "Sharda", "Kel"],
+    color: "#1a1a3c", rating: 4.7, reviews: 190, popularity: 80
+  },
+];
